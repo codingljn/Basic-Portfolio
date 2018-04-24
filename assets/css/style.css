@@ -14,10 +14,12 @@ body {
     width: 100%;
     background-color: #ffffff;
     border-style: none none solid none;
-    border-bottom-color: #cccccc;
+    border-bottom-color: #777777;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #777777;
+
+    
 
 }
 
