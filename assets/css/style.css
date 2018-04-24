@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    background-image: url("../images/tic-tac-toe.png");
+    text-align: left;
+
+}
+
+.a {
+    color: #777;
+}
+
+#top {
+    width: 100%;
+    background-color: #ffffff;
+    border-style: none none solid none;
+    border-bottom-color: #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #777777;
+
+}
+
+#banner {
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border-style: none none solid none;
+    margin: 0px 900px 0px 250px;
+    text-align: center;
+    float: left;
+    padding: 0px 10px 10px 10px;
+
+}
+
+#nav {
+    font-size: 14px;
+    color: #777777;
+    background-color: #ffffff;
+    text-align: right;
+    vertical-align: text-top;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 250px 0px 0px;
+}
+
+#Title {
+    clear: both;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-style: none none solid none;
+    border-bottom-color: #777777;
+    color: #4aaaa5;
+    background-color: #ffffff;
+    margin: 0px 0px 5x 0px;
+    padding: 0px 0px 5px 0px;
+}
+
+p {
+    text-align: left;
+    font-size: 12px;
+    color: #777777;
+}
+
+div {
+    text-align: left;
+}
+
+#section {
+    clear: both;
+    float:left;
+    background-color: #ffffff;
+    overflow: auto;
+    width: 960px;
+    height: 500px;
+    margin: 10px 0px 80px 250px;
+    border: 1px solid #dddddd;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer {
+    clear: both;
+    background-color: #666666;
+	padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+	color: #ffffff;
+	border-style: solid none none none;
+	border-top-color: #4aaaa5;
+    border-width: 8px;
+    margin: 100px 0px 0px 0px;
+    text-align: center;
+    width: 100%;
+}
