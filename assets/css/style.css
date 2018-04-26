@@ -2,65 +2,83 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #ffffff;
     background-image: url("../images/tic-tac-toe.png");
-    text-align: left;
 
-}
-
-.a {
-    color: #777;
 }
 
 #top {
     width: 100%;
     background-color: #ffffff;
-    border-style: none none solid none;
-    border-bottom-color: #777777;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #777777;
-
-    
-
+    overflow: auto;
 }
 
-#banner {
-    font-size: 28px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    border-style: none none solid none;
-    margin: 0px 900px 0px 250px;
-    text-align: center;
+.banner {
+    margin: 0 auto;
+    width: 960px;
+}
+
+#logo {
+    width: 250px;
+    height:90px;
     float: left;
-    padding: 0px 10px 5px 10px;
-
-}
-
-#nav {
-    font-size: 14px;
-    color: #777777;
-    background-color: #ffffff;
-    text-align: right;
-    padding: 0px 0px 0px 0px;
-    margin: 0px 250px 0px 0px;
-}
-
-#Title {
-    clear: both;
-    font-size: 24px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 90px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 32px;
+    background: #4aaaa5;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav {
+    float:right;
+    margin: 25px 0px 0px 0px;
+}
+
+nav a {
+    color: #777777;
+    display: inline-block;
+    line-height: 18px;
+    border-left: 1px solid #777777;
+    margin: 33px 0px 0px 15px;
+    padding: 0px 0px 0px 15px;
+    text-decoration: none;
+
+}
+
+Title {
+    float:left;
     border-style: none none solid none;
     border-bottom-color: #777777;
-    color: #4aaaa5;
     background-color: #ffffff;
     margin: 0px 0px 5x 0px;
     padding: 0px 0px 5px 0px;
 }
 
+h1#main {
+    font-size: 30px;
+    line-height: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-weight: 600;
+}
+
 p {
-    text-align: left;
-    font-size: 12px;
+    float: left;
+    font-size: 14px;
     color: #777777;
+    padding: 20px;
+    margin: 20px;
+}
+
+img {
+    float: left;
+    padding: 20px;
+    margin-right: 20px;
+   
 }
 
 div {
@@ -74,10 +92,19 @@ div {
     overflow: auto;
     width: 960px;
     height: 500px;
-    margin: 10px 0px 80px 250px;
+    margin: 10px 0px 20px 250px;
     border: 1px solid #dddddd;
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    clear: both;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 900px;
 }
 
 #footer {
@@ -89,8 +116,8 @@ div {
 	color: #ffffff;
 	border-style: solid none none none;
 	border-top-color: #4aaaa5;
-    border-width: 8px;
-    margin: 100px 0px 0px 0px;
+    border-width: 10px;
+    margin: 0px 0px 0px 0px;
     text-align: center;
     width: 100%;
 }
